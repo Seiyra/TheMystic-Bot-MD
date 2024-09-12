@@ -1,182 +1,153 @@
-# `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
+<p align="center">
+ <img width="180px" src="https://i.ibb.co/Qn1W6cP/image.png" align="center"/>
+ <h2 align="center">TheMystic-Bot-MD</h2>
+ <p align="center">Un chatbot automatizado para WhatsApp basado en Node.js, que permite realizar múltiples funciones y personalizaciones en la plataforma.</p>
+</p>
 
-------------------
-> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
+<p align="center">
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/graphs/contributors">
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/pulls">
+    <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/commits">
+    <img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork">
+    <img alt="GitHub Forks" src="https://img.shields.io/github/forks/BrunoSobrino/TheMystic-Bot-MD?style=for-the-badge" />
+  </a>
+</p>
 
-> TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic.
-------------------
+<p align="center">
+  <a href="https://api.whatsapp.com/send?phone=+5219992843881&text=&text=.menu">Demo</a>
+  ·
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Bug">Reportar un Bug</a>
+  ·
+  <a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues/new?assignees=&labels=Enhancement">Solicitar una Característica</a>
+</p>
 
-<!-- Por colaborador: https://github.com/jeffersonalionco -->
-> Función de **idioma** oficialmente implementada en TheMystic-Bot-MD: **/lang**
-> ##### **𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏 - Idiomas Disponibles**
-> - es - Español
-> - pt-br - Portugués
-> - en - Inglés
-> - ru - Ruso
-> - fr - Francés
-> - ar - Árabe (انزل لآخر الصفحة للتعرف على المزيد) 
+<!-- <p align="center">
+  <a href="/src/docs/README_en.md">English</a>
+  ·
+  <a href="/src/docs/README_pt-br.md">Português</a>
+</p> -->
 
-### `▢ CUENTAS OFICIALES`
+<p align="center">¡Ayuda a mantener el proyecto activo con tu <a href="https://www.paypal.me/BrunoSob">donación</a> y contribuye a mejorar las funciones del chatbot para todos!</p>
 
-[ 🔗 ] https://www.atom.bio/theshadowbrokers-team
+# Despliegue, Soporte y Comunidad
 
-### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
+- [Opciones de Despliegue](#opciones-de-despliegue)
+  - [Despliegue en Cafirexos](#despliegue-en-cafirexos)
+  - [Despliegue en BoxMineWorld](#despliegue-en-boxmineworld)
+  - [Despliegue en Otros](#despliegue-en-otros)
+- [Soporte y Comunidad](#soporte-y-comunidad)
+  - [Comunidades de Ayuda](#guía-de-uso)
+  - [Colaboradores](#colaboradores)
+  - [Agradecimientos](#agradecimientos)
+  - [Desarollador Principal](#desarollador-principal)
 
- <a href="https://chat.whatsapp.com/J8tFq87Ia0jEnx20NvCQxN" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(PORTUGU%C3%8AS)_(ATIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+# Avisos Importantes
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(ES)_(NO_DISPONIBLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+> [!IMPORTANT]\
+> Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)_(NOT AVAILABLE)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+> [!IMPORTANT]\
+> **No** se asegura que este **proyecto siga funcionando al 100% debido** a cuestiones de tiempo personales de @BrunoSobrino, por lo cual **el proyecto esta en manos de colaboradores** y usuarios que deseen aportar actualizaciones.
 
-> [ ℹ️ ] En los grupos de soporte no se permiten bots.
+> [!WARNING]\
+> **Este proyecto no ofrece soporte oficial para su uso en Termux.** Termux es una aplicación de terminal para Android y, aunque puede ser utilizada para ejecutar diversos programas, **este proyecto no está diseñado ni probado específicamente para funcionar en Termux**. Por lo tanto, **no garantizamos compatibilidad ni soporte técnico en este entorno**.
 
- ### `▢ BOTS OFICIALES (INACTIVOS)`
 
+# Opciones de despliegue
 
-<a href="https://api.whatsapp.com/send/?phone=5219991402134&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+## Despliegue en Cafirexos
 
-<a href="https://api.whatsapp.com/send/?phone=5219993404349&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_2_(INACTIVO)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://cafirexos.com">
+  <img width="180px" src="https://cdn.cafirexos.com/logos/logo_cfros_2000x2000.png"/>
+</a>
 
-### `▢ DONAR`
-- Agradece con una donación voluntaria haciendo [clic aquí](https://www.paypal.me/TheShadowBrokers133)
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-### `▢ PLUGINS`
-- Tienes ideas de plugins o ¿quieres obtener mas plugins? entonces hace [clic aquí](https://github.com/theh2so4/Mystic-Plugins)
+- **Sitio Web:** [cafirexos.com](https://cafirexos.com)
+- **Área de Clientes:** [clientes.cafirexos.com](https://clientes.cafirexos.com)
+- **Panel de Control:** [panel.cafirexos.com](https://panel.cafirexos.com)
+- **Estado de los Servicios:** [estado.cafirexos.com](https://estado.cafirexos.com)
+- **Documentación:** [docs.cafirexos.com](https://docs.cafirexos.com)
+- **Canal de WhatsApp:** [¡Únete aquí!](https://cafirexos.com/whatsapp)
+- **Comunidad de WhatsApp:** [¡Únete aquí!](https://cafirexos.com/comunidad)
 
-### `▢ AJUSTES`
-- Clona el repositorio haciendo [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+</details>
 
-### `▢ ACTIVAR EN CAFIREXOS (ANTES ZIPPONODES)`
-<a href="https://www.cafirexos.com"><img src="https://r2.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
-- Sitio web: [www.cafirexos.com](https://www.cafirexos.com)
-- Dash: [dash.cafirexos.com](https://dash.cafirexos.com)
-- Panel: [panel.cafirexos.com](https://panel.cafirexos.com)
-- Documentación: [docs.cafirexos.com](https://docs.cafirexos.com)
-- Canal de WhatsApp: [clic aquí](https://cafirexos.com/whatsapp)
+## Despliegue en BoxMineWorld
 
-### `▢ ACTIVAR EN BOXMINEHOST`
-<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/></a>
-- Pagina Oficial: [https://boxmineworld.com](https://boxmineworld.com)
-- Dashboard: [https://dash.boxmineworld.com](https://dash.boxmineworld.com)
-- Panel: [https://panel.boxmineworld.com](https://panel.boxmineworld.com)
-- Tutorial: [https://youtu.be/eC9TfKICpcY](https://youtu.be/eC9TfKICpcY)
-- Dudas UNICAMENTE SOBRE EL HOST: [https://discord.gg/84qsr4v](https://discord.gg/84qsr4v) (Preguntar por Vicemi)
+<a href="https://boxmineworld.com">
+  <img width="180px" src="https://i.ibb.co/sFygw8p/favicon.png"/>
+</a>
 
-### `▢ ACTIVAR EN KOYEB`
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
-  
-### `▢ ACTIVAR EN REPLIT`
+- **Sitio Web:** [boxmineworld.com](https://boxmineworld.com)
+- **Área de Clientes:** [dash.boxmineworld.com](https://dash.boxmineworld.com)
+- **Panel de Control:** [panel.boxmineworld.com](https://panel.boxmineworld.com)
+- **Documentación:** [docs.boxmineworld.com](https://docs.boxmineworld.com)
+- **Comunidad de Discord:** [¡Únete aquí!](https://discord.gg/84qsr4v)
 
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
-  
-### `▢ ACTIVAR EN RENDER`
+</details>
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
+## Despliegue en Otros
 
-### `▢ ACTIVAR EN TERMUX` 
-- Escribe los siguientes comandos en Termux:
-```bash
-cd && termux-setup-storage
-```
+En esta sección encontrarás **botones de despliegue** que te permitirán implementar el proyecto en distintos entornos con un solo clic. Este proceso es **automático** y no requiere configuraciones manuales adicionales. Simplemente selecciona la plataforma deseada y haz clic en el botón correspondiente para **desplegar** tu proyecto de manera rápida y sencilla.
 
-```bash
-apt-get update -y && apt-get upgrade -y
-```
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=514876515&ref=master&geo=EuropeWest)
+[![Deploy to Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://www.heroku.com/deploy?template=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&name=themystic-bot-md&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+[![Run on Repl.it](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://dashboard.render.com/blueprint/new?repo=https://github.com/BrunoSobrino/TheMystic-Bot-MD)
+<!-- [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/BrunoSobrino/TheMystic-Bot-MD) -->
 
-```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-```
+# Soporte y Comunidad
 
-```bash
-git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
-```
+## Comunidades de Ayuda
 
-```bash
-yarn install
-```
+En este espacio podrás encontrar diversas **comunidades de ayuda** donde podrás **resolver tus dudas**, **compartir experiencias** y **colaborar** con otros usuarios. Únete a la comunidad que mejor se adapte a tus necesidades y forma parte de un **entorno de apoyo mutuo**.
 
-```bash
-npm install
-```
+<table>
 
-```bash
-npm update
-```
+| RRSS | Tipo | Idioma | Enlace |
+| --- | --- | --- |--- |
+| WhatsApp | Canal | Español | [¡Únete aquí!](https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y) |
+| WhatsApp | Grupo | Español | [¡Únete aquí!](https://chat.whatsapp.com/Daa3Fe4A9JeFpRI2QtBS4s) |
+| WhatsApp | Group | English | [¡Join here!](https://chat.whatsapp.com/HTatrQokqODKx9eem0CKuY) |
+| WhatsApp | Grupo | Português | [¡Junte-se aqui!](https://chat.whatsapp.com/J8tFq87Ia0jEnx20NvCQxN) |
 
-```bash
-npm start
-```
+</table>
 
-### `▢ ACTIVAR EN CASO DE DETENERSE (TERMUX)`
-- Escribe los siguientes comandos en Termux:
-```bash
-> cd 
-> cd Mystic-termux
-> npm start
-```
+## Colaboradores
 
-### `▢ OBTENER OTRO CODIGO QR (TERMUX)`
-- DETEN EL BOT, HAZ CLICK EN EL SIMBOLO CTRL DE TERMUX MAS Z EN SU TECLADO MOVIL HASTA QUE SALGA ALGO EN VERDE SIMILAR A TheMystic-Bot-MD $
-- Escribe los siguientes comandos en Termux:
-```bash
-> cd 
-> cd TheMystic-Bot-MD
-> rm -rf MysticSession
-> npm start
-```
-### `▢ NOTAS`
-- ES POSIBLE QUE EL BOT TENGA ALGUNAS FALLAS, SE IRAN SOLUCIONANDO CONFORME SE VAYAN DETECTANDO
-- SI VAS A EDITAR POR COMPLETO DEJA LOS CREDITOS DEL BOT 
-- EL BOT ES COMPARTIBLE CON WHATSAPP NORMAL O BUSINESS
-- ATENTO A LAS ACTUALIZACIONES QUE SE HAGAN EN ESTE REPOSITORIO
-- PUEDES USAR #actualizacion PARA VER SI ALGUN COMANDO FUE ACTUALIZADO
-- EL ADD Y EL KICK PUEDEN OCASIONAR QUE EL NUMERO SE VAYA A SOPORTE POR ELLO SE ACTIVA CON #enable restrict 
-- THE SHADOW BROKERS - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
- 
- ### `▢ ¿DUDAS SOBRE EL BOT?, CONTACTANOS`
-<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/BRUNO_SOBRINO_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/595986460945" target="blank"><img src="https://img.shields.io/badge/AIDEN_NOTLOGIC_COLAB.3-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/51940617554" target="blank"><img src="https://img.shields.io/badge/GATITO_COLAB.4-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/593991398786" target="blank"><img src="https://img.shields.io/badge/CARLOSTWT_COLAB.5-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/51996089079" target="blank"><img src="https://img.shields.io/badge/GHOST_COLAB.6-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/51995386439" target="blank"><img src="https://img.shields.io/badge/NEKOSMICMATT_COLAB.7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_COLAB.8-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/50246028932" target="blank"><img src="https://img.shields.io/badge/SinNombre_COLAB.9-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/5212411719888" target="blank"><img src="https://img.shields.io/badge/YOVANI_COLAB.10-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/5218442114446" target="blank"><img src="https://img.shields.io/badge/skid_COLAB.11-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/393755775755" target="blank"><img src="https://img.shields.io/badge/Fabri115_COLAB.12-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/212609395104" target="blank"><img src="https://img.shields.io/badge/Saad_COLAB.13-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+Conoce a los **colaboradores** que han aportado al desarrollo de este proyecto. Su apoyo ha sido clave para **mejorar** y **expandir** las funcionalidades del proyecto.
 
-## `▢ COLABORADORES DEL BOT` 
-<a href="https://github.com/unptoadrih15"><img src="https://github.com/unptoadrih15.png" width="100" height="100" alt="unptoadrih15"/></a>
-<a href="https://github.com/ALBERTO9883"><img src="https://github.com/ALBERTO9883.png" width="100" height="100" alt="ALBERTO9883"/></a>
-<a href="https://github.com/ferhacks"><img src="https://github.com/ferhacks.png" width="100" height="100" alt="ferhacks"/></a>
-<a href="https://github.com/G4tito"><img src="https://github.com/G4tito.png" width="100" height="100" alt="G4tito"/></a>
-<a href="https://github.com/GataNina-Li"><img src="https://github.com/GataNina-Li.png" width="100" height="100" alt="GataNina-Li"/></a>
-<a href="https://github.com/OsExar"><img src="https://github.com/OsExar.png" width="100" height="100" alt="OsExar"/></a>
-<a href="https://github.com/CarlosTwT"><img src="https://github.com/CarlosTwT.png" width="100" height="100" alt="CarlosTwT"/></a>
-<a href="https://github.com/anxo2077"><img src="https://github.com/anxo2077.png" width="100" height="100" alt="anxo2077"/></a>
-<a href="https://github.com/GeneradorVIP"><img src="https://github.com/GeneradorVIP.png" width="100" height="100" alt="GeneradorVIP"/></a>
-<a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="100" height="100" alt="DIEGO-OFC"/></a>
-<a href="https://github.com/SinNombre999"><img src="https://github.com/SinNombre999.png" width="100" height="100" alt="SinNombre999"/></a>
-<a href="https://github.com/ReyEndymion"><img src="https://github.com/ReyEndymion.png" width="100" height="100" alt="ReyEndymion"/></a>
-<a href="https://github.com/theh2so4"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
-<a href="https://github.com/skidy89"><img src="https://github.com/skidy89.png" width="100" height="100" alt="skidy89"/></a>
-<a href="https://github.com/OFC-YOVANI"><img src="https://github.com/OFC-YOVANI.png" width="100" height="100" alt="OFC-YOVANI"/> </a>
-<a href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="100" height="100" alt="elrebelde21"/> </a>
-<a href="https://github.com/Fabri115"><img src="https://github.com/Fabri115.png" width="100" height="100" alt="Fabri115"/> </a>
-<a href="https://github.com/Alba070503"><img src="https://github.com/Alba070503.png" width="100" height="100" alt="Alba070503"/> </a>
-<a href="https://github.com/jeffersonalionco"><img src="https://github.com/jeffersonalionco.png" width="100" height="100" alt="Alba070503"/> </a>
-<a href="https://instagram.com/nm9h"><img src="https://telegra.ph/file/7580886a1d41b35b51e38.jpg" width="100" height="100" alt="Saad"/> </a>
+<a href="https://github.com/BrunoSobrino/TheMystic-Bot-MD/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BrunoSobrino/TheMystic-Bot-MD" /> 
+</a>
 
-## `▢ AGRADECIMIENTOS & CREDITOS` 
-<div><button id="boton" type="button">games-wabot-md by BochilGaming </button></div>
-<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
-<div><button id="boton" type="button">Baileys by adiwajshing & WhiskeySockets</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
+## Agradecimientos
 
-## `▢ PROPIETARIO DEL BOT` 
-<a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="250" height="250" alt="BrunoSobrino"/></a>
- 
+<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device">
+  <img src="https://i.ibb.co/CMpM8pk/Bochil-Gaming.png" width="180px"/>
+</a>
+
+## Desarollador Principal
+
+<a href="https://github.com/BrunoSobrino">
+  <img src="https://i.ibb.co/Qn1W6cP/image.png" width="180px"/>
+</a>

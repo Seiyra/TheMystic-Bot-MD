@@ -1,9 +1,7 @@
-
-
 const handler = async (m, {conn, usedPrefix}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./src/languages/${idioma}.json`))
   const tradutor = _translate.plugins.info_groupsofc
 
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
@@ -11,15 +9,19 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `${tradutor.texto1[0]}
 
 ${tradutor.texto1[1]}
-${tradutor.texto1[2]}
+1.- https://chat.whatsapp.com/LjJbmdO0qSDEKgB60qivZj
 
-${tradutor.texto1[3]}
+2.- https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs
 
-${tradutor.texto1[4]}
+3.- https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F
 
-${tradutor.texto1[5]}
+4.- https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC
 
-${tradutor.texto1[6]}`.trim();
+> Sunlight Team  :
+
+1.- https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z
+
+2.- https://chat.whatsapp.com/Fy74b6fgE9SJJpHVi6CKJY`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
